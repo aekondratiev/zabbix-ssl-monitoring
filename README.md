@@ -6,6 +6,8 @@ Place `scripts/zabbix_ssl_expiration.sh` into /etc/zabbix/scripts/ and make exec
 
 Place `config/userparameter_ssl_expiration.conf` into `/etc/zabbix/zabbix_agentd.d/` or directly into `/etc/zabbix/zabbix_agentd.conf`
 
+Restart zabbix-agentd after all scripts are in place
+
 Import template from `template/Template SSL Expiration.xml`
 
 Edit items and triggers, in template is one example for www.google.ru
